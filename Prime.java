@@ -1,6 +1,6 @@
 public class Prime{
     public static void main(String[] args) {
-        int a =8;
+        int a = 7;
         boolean isPrime = true;
         for (int i = 2; i*i < 17; i++) {
             if(a%i==0)
