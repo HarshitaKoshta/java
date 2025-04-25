@@ -9,7 +9,6 @@ public class MaxProductArr{
                if(c>max){
                 max=c;
                }
-
             }
     }   System.out.println(max);
     }
