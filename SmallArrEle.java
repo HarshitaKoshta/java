@@ -12,5 +12,5 @@ class SmallArrEle{
     }    
         public static void main(String[] args) {
         arr();  
-}
+    }
 }
