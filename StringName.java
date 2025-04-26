@@ -1,5 +1,3 @@
-
-
 class StringName{
     static void Name(String name){
         System.out.println("hello"+name);
