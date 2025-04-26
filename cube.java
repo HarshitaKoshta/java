@@ -1,10 +1,10 @@
 public class cube{
-    static void cube(int n){
-        int c = n*n*n;
-        System.out.println("cube:"+c);
-
+    static int CubeCal(int n){
+       return n*n*n;
     }
     public static void main(String[] args) {
-        cube(5);
+       int c = cube.CubeCal(5);
+       System.out.println(c);
+
     }
 }
