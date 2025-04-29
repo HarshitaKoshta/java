@@ -13,6 +13,6 @@ class Rectangle{
         calculation a1 = new calculation();
         a1.area(3,4);
         a1.paremeter(2, 1);
-
+        
     }
 }
