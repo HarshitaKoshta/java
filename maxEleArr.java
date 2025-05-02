@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class x{
+public class maxEleArr{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size of arr");
@@ -16,8 +16,7 @@ public class x{
             if(arr[j]>max){
             max = arr[j];
             }
-            System.out.println(max);
         }
-
+        System.out.println("max:"+max);
     }
 }    
