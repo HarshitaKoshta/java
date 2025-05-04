@@ -20,7 +20,7 @@ class BankAccount{
     void withdraw(double amount){
       if(amount>0&&amount<=balance){
         balance -= amount;
-        System.out.println("Witndraw:"+amount);
+        System.out.println("Withdraw:"+amount);
       }else{
         System.out.println("invalid or insufficient amount");
       }
