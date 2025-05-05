@@ -1,0 +1,52 @@
+1. Find the maximum and minimum element in an array
+ 2. Reverse an array in place
+ 3. Find the 'Kth' max and min element of an array
+ 4. Sort an array of 0s, 1s and 2s (Dutch National Flag Problem)
+ 5. Move all negative numbers to beginning and positive to end
+ 6. Find Union and Intersection of two arrays
+ 7. Cyclically rotate an array by one
+ 8. Kadane's Algorithm - Maximum Subarray Sum
+ 9. Check if array is sorted and rotated
+ 10. Leaders in an array
+ 11. Rearrange array in alternating positive & negative items
+ 12. Count the number of occurrences of an element
+ 13. Find all pairs with a given sum
+ 14. Subarray with given sum (Two pointer / Sliding window)
+ 15. Missing number in array [1 to n]
+ 16. Find duplicate number in array
+ 17. Find intersection of two sorted arrays
+ 18. Trapping Rain Water
+ 19. Merge two sorted arrays without using extra space
+ 20. Maximum Product Subarray
+ II. Strings (15 Questions)
+ 21. Reverse a string
+ 22. Check for palindrome
+23. Remove duplicates from a string
+ 24. Print all permutations of a string
+ 25. Check if two strings are anagrams
+ 26. Count and say problem
+ 27. Longest common prefix
+ 28. Convert string to integer (like atoi)
+ 29. Implement strstr() (substring search)
+ 30. Valid Palindrome after removing at most one character
+ 31. Compress the string (like Leetcode 443)
+ 32. Longest substring without repeating characters
+ 33. Group anagrams together
+ 34. Check if a string is a rotation of another string
+ 35. Check if one string is a subsequence of another
+ III. 2D Arrays (15 Questions)
+ 36. Transpose of a matrix
+ 37. Rotate matrix by 90 degrees clockwise
+ 38. Search in a row-wise and column-wise sorted matrix
+ 39. Spiral traversal of a matrix
+ 40. Matrix multiplication
+ 41. Set entire row and column to 0 if any element is 0
+ 42. Print diagonals of a matrix
+ 43. Snake pattern printing
+ 44. Boundary traversal of matrix
+ 45. Pascal's Triangle
+ 46. Search a 2D matrix (Leetcode 74)
+ 47. Count islands (DFS on matrix)
+48. Find median in a row-wise sorted matrix
+ 49. Maximum size rectangle of all 1s in binaryy matrix
+ 50. Boolean Matrix problem (set row/column to 1 if any element is 1)
