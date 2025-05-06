@@ -11,6 +11,6 @@ class PosNegSort{
               if(arr[i]>=0){
                 System.out.println(arr[i]);
               }               
-           }
+           } 
     }
 }
