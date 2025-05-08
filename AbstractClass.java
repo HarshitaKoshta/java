@@ -20,6 +20,7 @@ class AbstractClass{
     public static void main(String[] args) {
         Payment p1 = new UpiPay();
         p1.pay(800);
+        p1.print();
         Payment p2 = new Cardpay();
         p2.pay(4600);
     }
