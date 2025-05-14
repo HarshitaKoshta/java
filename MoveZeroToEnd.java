@@ -1,7 +1,7 @@
 class MoveZeroToEnd{
     static void movezero(int[] arr){
         int idx =0;
-        for (int i = 0; i < arr.length-1; i++) {
+        for (int i = 0; i < arr.length; i++) {
             if(arr[i]!=0){
                arr[idx] = arr[i];
                idx++;
@@ -11,7 +11,7 @@ class MoveZeroToEnd{
             arr[i]=0;
         }
         for(int num:arr){
-        System.out.print(num);
+        System.out.print(num+" ");
         }
     }
     public static void main(String[] args) {
