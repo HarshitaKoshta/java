@@ -6,6 +6,8 @@ class ArrList{
         ArrayList<Integer> list = new ArrayList<>();
 
         list.add(3);
+        list.add(6);
+        list.add(1);
 
         System.out.println(list);
     }
