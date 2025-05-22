@@ -5,6 +5,9 @@ class ErrorHandle2{
             System.out.println(a[7]);
         } catch (Exception e) {
             System.out.println("index is not present is array");
+            System.out.println(e);
+        }finally{
+            System.out.println("all well");
         }
     }
 }
