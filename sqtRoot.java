@@ -7,7 +7,7 @@ class sqtRoot {
         while(lt<=rt){
             
             int mid = lt + (rt - lt) / 2;
-long sq = (long)mid*mid;
+            long sq = (long)mid*mid;
             if(sq==x){
                System.out.println("square root is:"+mid);
                return;
