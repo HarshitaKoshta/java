@@ -2,19 +2,20 @@ import java.util.Scanner;
 class SpiralTraverse{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of matrix(m x n)");
         int m = sc.nextInt();
         int n = sc.nextInt();
         int[][] mat = new int[m][n];
         int srow = 0, scol = 0, erow = m - 1, ecol = n - 1;
         
 
-        System.out.println("enter elements");
+        System.out.println("enter elements:");
         for (int i = 0; i < mat.length; i++) {
             for (int j = 0; j < mat[i].length; j++) {
             mat[i][j]=  sc.nextInt();  
             }
         }
-
+        System.out.println("elements after sprial traverse:");
         while (srow <= erow && scol <= ecol) {
             for (int j = scol; j <= ecol; j++) {
                System.out.print(mat[srow][j]); 
@@ -32,7 +33,6 @@ class SpiralTraverse{
             }
             srow++; erow--; scol++; ecol--;
         }
-        
     }
 };
 
