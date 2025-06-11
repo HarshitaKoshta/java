@@ -51,7 +51,7 @@ class Account{
        System.out.println(i);
      }
     }
-gkl    public void checkBalance(){
+   public void checkBalance(){
         System.out.println("Your account balance is:"+balance);
     }
     public void TakeLoan(double amount){
