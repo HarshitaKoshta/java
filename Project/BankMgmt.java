@@ -1,4 +1,7 @@
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -61,6 +64,26 @@ class Account{
           System.out.println("Succesfully loan taken:"+loan);
         }  
     }
+    public void saveAccount(){
+       try {
+            File file = new File("bankAcc.txt");
+            if(file.createNewFile()){
+                System.out.println("file 'bankAcc.txt' created");
+            }else{
+                System.out.println("already exists");
+            }
+            FileWriter fw = new FileWriter(file);
+            fw.write("Name"+name+"\n");
+            fw.write("Balance"+balance+"\n");
+
+            System.out.println("account details saved to file");
+        } catch (IOException e) {
+            System.out.println("an error occur");
+        }        
+   }
+    public void saveTransition(){
+        
+    }
     public String getName() {
         return name;
     }
@@ -97,7 +120,8 @@ public class BankMgmt {
                 case 3 : System.out.println("your transition history is"); 
                          account.TransitionHistory();
                          break;
-                case 4 : account.checkBalance();      
+                case 4 : account.checkBalance(); 
+                         account.saveAccount();     
                          break;
                 case 5 : System.out.println("enter amount to take loan");
                          double t = sc.nextDouble();
