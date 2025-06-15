@@ -3,7 +3,7 @@ import java.util.HashSet;
 
 public class RemoveDupliChar {
     public static void main(String[] args) {
-        String s = "piiiihhhuuuu";
+        String s = "piiiihhhuuuur";
         StringBuilder res = new StringBuilder();
         HashSet<Character> set = new HashSet<>();
 

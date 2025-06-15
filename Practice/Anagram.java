@@ -1,24 +1,16 @@
 
 import java.util.HashMap;
 
-public class AnagramMap {
+public class Anagram {
     public static void main(String[] args) {
         String s1 = "silent";
-        String s2 = "lisenk";
+        String s2 = "listek";
 
         HashMap<Character,Integer> map = new HashMap<>();
-
-        if(s1.length()!=s2.length()){
-            System.out.println("not anagram");
+        for(char a:s1.toCharArray()){
+            map.put(a,map.getOrDefault(a, 0)+1);
         }
-
-        char[] a = s1.toCharArray();
-        char[] b = s2.toCharArray();
-
-        for(char c:a){
-           map.put(c,map.getOrDefault(c, 0)+1);
-        }
-        for(char c:b){
+      for(char c:s2.toCharArray()){
             if (!map.containsKey(c)|| map.get(c) == 0 ) {
                 System.out.println("Not anagram");
                 return;
@@ -26,5 +18,6 @@ public class AnagramMap {
             map.put(c, map.get(c) - 1);
          } 
         System.out.println("anagram");
+    
     }
 }
