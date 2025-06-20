@@ -11,7 +11,7 @@ class StrIsRotationOfStr{
         }
 
        if(s3.contains(s2)){
-        System.out.println("yes,rotation of string");
+        System.out.println("yes, "+s2+ " is rotation of string "+s1);
        }else{
         System.out.println("Not a rotation");
         }
